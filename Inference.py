@@ -3,10 +3,11 @@
 # download the pretrained weights 'model_checkpoint_4dST_prnorm_resdense_test.weights.h5' from latest GitHub release
 
 import os
-from Model_4DST_full import unet_4dst_resdense_prenorm
 import scipy.io as sio
 import nibabel as nib
 import numpy as np
+from Model_4DST_full import unet_4dst_resdense_prenorm
+from losses import dice_coefficient_msl, bce_msl, bce_dice_loss_msl, dice_loss_msl
 
 #%% function to generate data paths
 def get_data_paths_prefix(data_dir, data_prefix, data_suffix='input.nii'):
