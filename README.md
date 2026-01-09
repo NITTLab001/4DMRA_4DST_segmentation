@@ -6,3 +6,15 @@ Original paper: https://onlinelibrary.wiley.com/doi/10.1002/mrm.70173
 
 Example 
 ![4DST_MIP_github](https://github.com/user-attachments/assets/9d491827-a259-4207-83c1-ffdbf84c8d96)
+
+Software Versions: 
+Python 3.10.14
+Keras 3.1.1
+Tensorflow 2.16.1
+
+Recommended ASL-MRI
+PASL ASL based labeling
+Dynamic time range ~ 2s
+Temporal resolution ~ 100ms
+The dynamic time range should measure both inflow and outflow dynamics 
+
