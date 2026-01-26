@@ -19,3 +19,8 @@ Dynamic time range ~ 2s
 Temporal resolution ~ 100ms  
 The dynamic time range should measure both inflow and outflow dynamics   
 
+**Usage**
+For 4DST inference
+1) z-score normalize 
+2) Prepare your data to match the original implementation (192×192×3×24) (XYZT)
+3) Get the pretrained 4DST .h5 weights from the latest GitHub release
